@@ -53,3 +53,10 @@ div {
   width: 200px;
   height: 300px;
 }
+
+.no-style {
+color: rgb(250, 250, 250);
+background-color: transparent;
+border: none;
+font-family: serif;
+}
