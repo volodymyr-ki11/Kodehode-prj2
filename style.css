@@ -1,0 +1,55 @@
+main{
+    border: solid 2px black;
+}
+
+section{
+    border: solid 2px red;
+}
+
+h2{
+  color: chartreuse;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: end;
+  font-family: "Isometra";
+}
+
+h3{
+border: 1px solid blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  border: 1px solid tomato;
+}
+
+button{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid tomato;
+    border-radius: 15px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    color: purple;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0);
+  font-family: "Roboto", Arial, sans-serif;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+div {
+  border: 2px solid red;
+  margin: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
