@@ -17,48 +17,29 @@
       href="https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
- 
-    <style>
-        p{
-            color: chartreuse;
-        }
-        button{
-            border: none;
-            color: orangered;
-            background-color: lightgreen;
-        }
-    </style>
 </head>
 <body>
-
+    
     <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo.png">
+        </a>
+        <div class="menu">
+            <button class="menuButton" id="menuBtn" aria-label="Open menu">
+                <img src="img/menu.png" alt="">
+            </button>
 
-         <h1 style="color: red;">My website</h1>
-
+            <div class="dropdown" id="dropdown">
+                <button id="themeBtn">Dark Mode</button>
+            </div>
+        </div>
     </header>
-
-  <p style="background-color: blue; color: wheat;">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore
-      corrupti consequuntur delectus tempore doloremque iste temporibus et nihil
-      quibusdam?
-  </p>
-
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore
-      corrupti consequuntur delectus tempore doloremque iste temporibus et nihil
-      quibusdam?
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore
-      corrupti consequuntur delectus tempore doloremque iste temporibus et nihil
-      quibusdam?
-    </p>
+    
 
     <button onclick="alert('Hei!')">Click me!</button>
     
     <button id="myButton">Click me!</button>
+    
     <script>
       document.getElementById("myButton").addEventListener("click", function() 
       {alert("худтухуд");});
@@ -113,5 +94,7 @@
          <p class="no-style"> GOVNO </p>
 
     </footer>
+     
+    <script src="index.js"></script>
 </body>
 </html>
